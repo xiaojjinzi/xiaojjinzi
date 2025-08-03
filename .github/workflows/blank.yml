@@ -1,0 +1,19 @@
+name: Update Profile Badge section from Credly
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "update target"
+        required: false
+        default: 'badges' 
+        
+jobs:
+  update-badge:
+    name: Update README Badge Section 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Badges - Readme
+        uses: pemtajo/badge-readme@main
+        with:
+          CREDLY_USER: taejunkim
