@@ -12,6 +12,8 @@ jobs:
   update-badge:
     name: Update README Badge Section 
     runs-on: ubuntu-latest
+    permissions:
+      content: write
     steps: 
       - name: Badges - Readme
         uses: pemtajo/badge-readme@main
