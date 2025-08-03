@@ -1,7 +1,9 @@
-# I'm 
+# Who Am I? 
 
 🎯 Infra & Cloud Engineer
+
 🧠 Focus: OS, Distributed Systems, System Programming, Blockchain  
+
 🌎 Seeking Global Engineering Roles
 
 ---
